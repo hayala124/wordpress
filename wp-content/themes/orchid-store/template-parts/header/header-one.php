@@ -87,10 +87,11 @@
                         ?>
                     </div><!-- .os-col.logo-col -->
                     <?php
+					echo "<h5 style='color:purple;'>Даём людям возможность почувствовать себя в комфортной и понимающей обстановке!</h5>";
                     $orchid_store_display_product_search = orchid_store_get_option( 'display_product_search_form' );
                     $orchid_store_display_wishlist_icon = orchid_store_get_option( 'display_wishlist' );
                     $orchid_store_display_minicart = orchid_store_get_option( 'display_mini_cart' );
-
+					
                     if( $orchid_store_display_product_search == true || $orchid_store_display_minicart == true || $orchid_store_display_wishlist_icon == true ) {
                         ?>
                         <div class="os-col extra-col">
